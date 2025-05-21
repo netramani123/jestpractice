@@ -7,4 +7,8 @@ function subtract(a, b) {
   return a - b;
 }
 
-module.exports = { add, subtract };
+function myMultiplication(n1, netra2){
+    return n1 * netra2;
+}
+
+module.exports = { add, subtract, myMultiplication };
